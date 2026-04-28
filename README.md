@@ -17,12 +17,12 @@ Dashboard ini merupakan aplikasi analisis data interaktif yang dibuat menggunaka
 - **Cluetering Waktu**: Mengelompokkan waktu menjadi morning, afternoon, evening, dan night. 
 
 # Teknologi yang digunakan:
-- Python: Bahasa pemrograman
-- Pandas: Manipulasi data
-- NumPy: Komputasi numerik
-- Matplotlib: Visualisasi dasar
-- Seaborn: Visualisasi statistik
-- Streamlit: Pembuatan dashboard interaktif
+- **Python**: Bahasa pemrograman
+- **Pandas**: Manipulasi data
+- **NumPy**: Komputasi numerik
+- **Matplotlib**: Visualisasi dasar
+- **Seaborn**: Visualisasi statistik
+- **Streamlit**: Pembuatan dashboard interaktif
 
 # Deskripsi Data
 Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun 2011-2012, sebagai berikut:
