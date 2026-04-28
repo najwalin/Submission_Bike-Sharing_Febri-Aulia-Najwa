@@ -22,7 +22,6 @@ if st.session_state.user_name == "":
     if st.button("Masuk Dashboard"):
         if name.strip() != "":
             st.session_state.user_name = name
-            st.experimental_rerun()
         else:
             st.warning("Nama harus diisi, tidak boleh kosong!")
     st.stop()
@@ -50,7 +49,6 @@ with st.sidebar:
 
     if st.button("Ganti User"):
         st.session_state.user_name = "" 
-        st.experimental_rerun()
 
 # Rentang Waktu
 min_date = day_df['dteday'].min().date()
