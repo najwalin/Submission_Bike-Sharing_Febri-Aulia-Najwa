@@ -60,4 +60,8 @@ Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun
      pip install -r requirements.txt
    
 # 4. Menjalankan aplikasi streamlit:
-   Setelah semua sudah siap, jalankan perintah berikut untuk membuka dashboard di browser: https://submissionbike-sharingfebri-aulia-najwa-8rmriqgotigudfrzrt6spm.streamlit.app/
+     Setelah semua sudah siap, jalankan aplikasi dengan perintah streamlit run dashboard.py. Setelah itu, 
+     dashboard akan otomatis terbuka di browser.
+     
+Selain dijalankan secara lokal, dashboard juga dapat diakses melalui link berikut: https://submissionbike-sharingfebri-aulia-najwa-8rmriqgotigudfrzrt6spm.streamlit.app/
+ 
