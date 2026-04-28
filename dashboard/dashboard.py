@@ -29,8 +29,8 @@ if st.session_state.user_name == "":
 
 # Load Data
 def load_data():
-    day_df = pd.read_csv("day_all_data.csv")
-    hour_df = pd.read_csv("hour_all_data.csv")
+    day_df = pd.read_csv("dashboard/day_all_data.csv")
+    hour_df = pd.read_csv("dashboard/hour_all_data.csv")
 
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])
     hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
