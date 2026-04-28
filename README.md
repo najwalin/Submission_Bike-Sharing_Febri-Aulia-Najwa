@@ -7,14 +7,14 @@
 Dashboard ini merupakan aplikasi analisis data interaktif yang dibuat menggunakan Python dan Streamlit. Dashboard ini digunakan untuk mengeksplorasi dan memahami pola penyewaan sepeda berdasarkan tipe pengguna, waktu (jam), serta faktor lingkungan seperti cuaca, suhu, kelembapan, dan kecepatan angin. Melalui visualisasi yang disediakan, pengguna dapat melihat bagaimana perilaku penyewaan sepeda berubah dalam kondisi, sehingga dapat memberikan insight yang berguna untuk pengambilan keputusan.
 
 # Fitur Utama
-- Login Sederhana Pengguna: Pengguna diminta memasukkan nama sebelum masuk ke dashboard.
-- Filter Rentang Waktu: Data dapat difilter berdasarkan tanggal tertentu melalui sidebar.
-- Ringkasan Mterik Utama: Menampilkan total pengguna casual, pengguna registered, dan total penyewaan sepeda.
-- Analisis Tipe Pengguna: Perbandingan total penyewaan (bar chart) dan persentase pengguna (pie chart).
-- Analisis Tipe Faktor Cuaca: Heatmap korelasi (temp, hum, windspeed) serta visualisasi pengaruh suhu, kelembapan, dan angin terhadap penyewaan.
-- Analisis Pola Jam: Rata-rata penyewaan sepeda per jam (0 hingga 23) serta perbandingan weekday dan weekend.
-- Analisis Kondisi Cuaca: Menampilkan rata-rata penyewaan berdasarkan kondisi cuaca.
-- Cluetering Waktu: Mengelompokkan waktu menjadi morning, afternoon, evening, dan night. 
+- **Login Sederhana Pengguna**: Pengguna diminta memasukkan nama sebelum masuk ke dashboard.
+- **Filter Rentang Waktu**: Data dapat difilter berdasarkan tanggal tertentu melalui sidebar.
+- **Ringkasan Mterik Utama**: Menampilkan total pengguna casual, pengguna registered, dan total penyewaan sepeda.
+- **Analisis Tipe Pengguna**: Perbandingan total penyewaan (bar chart) dan persentase pengguna (pie chart).
+- **Analisis Tipe Faktor Cuaca**: Heatmap korelasi (temp, hum, windspeed) serta visualisasi pengaruh suhu, kelembapan, dan angin terhadap penyewaan.
+- **Analisis Pola Jam**: Rata-rata penyewaan sepeda per jam (0 hingga 23) serta perbandingan weekday dan weekend.
+- **Analisis Kondisi Cuaca**: Menampilkan rata-rata penyewaan berdasarkan kondisi cuaca.
+- **Cluetering Waktu**: Mengelompokkan waktu menjadi morning, afternoon, evening, dan night. 
 
 # Teknologi yang digunakan:
 - Python: Bahasa pemrograman
@@ -26,26 +26,26 @@ Dashboard ini merupakan aplikasi analisis data interaktif yang dibuat menggunaka
 
 # Deskripsi Data
 Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun 2011-2012, sebagai berikut:
-- data_all_data.csv: Data agregat harian
-- hour_all_data.csv: Data agregat per jam
+- **data_all_data.csv**: Data agregat harian
+- **hour_all_data.csv**: Data agregat per jam
 
 # Kolom Utama
 - `dteday`: Tanggal
-- cnt: Total penyewaan sepeda
-- casual: Pengguna tidak terdaftar
-- registered: Pengguna terdaftar
-- temp: Suhu
-- hum: Kelembapan
-- windspeed: Kecepatan angin
-- hr: Jam (0 hingga 23)
-- weathersit: Kondisi cuaca
+- `cnt`: Total penyewaan sepeda
+- `casual`: Pengguna tidak terdaftar
+- `registered`: Pengguna terdaftar
+- `temp`: Suhu
+- `hum`: Kelembapan
+- `windspeed`: Kecepatan angin
+- `hr`: Jam (0 hingga 23)
+- `weathersit`: Kondisi cuaca
 
 # Cara Menjalankan Dashboard
 1. Pastikan semua file berikut ada dalam satu folder
-   - dashboard.py
-   - day_all_data.csv
-   - hour_all_data.csv
-   - requirements.txt
+   - **dashboard.py**
+   - **day_all_data.csv**
+   - **hour_all_data.csv**
+   - **requirements.txt**
      
 2. Membuat Virtual Environment
    Untuk menghindari bentor antar library, sebaiknya gunakan virtual environment. Buka terminal atau
