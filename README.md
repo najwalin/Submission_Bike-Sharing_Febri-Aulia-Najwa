@@ -49,10 +49,18 @@ Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun
 
 # 2. Membuat Virtual Environment:
      Untuk menghindari bentrok antar library, sebaiknya gunakan virtual environment. Buka terminal atau
-     command prompt di folder proyek, selanjutnya jalankan
-     *Windows*
+     command prompt di folder proyek, bisa memilih salah satu cara berikut:
+     *Windows*:
      python -m venv venv
      venv\Script\activate
+
+     *macOS/Linux*:
+     python3 -m venv venv
+     source venv/bin/activate
+
+     *Anaconda*:
+     conda create --name main-ds python=3.9
+     conda activate main-ds
 
 # 3. Instalasi library:
      Setelah environment aktif, install semua library yang dibutuhkan menggunakan file requirements.txt
