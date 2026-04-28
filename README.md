@@ -54,12 +54,12 @@ Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun
    python -m venv venv
    venv\Script\active
    
-3. Instalasi library 
+4. Instalasi library 
    Setelah environment aktif, install semua library yang dibutuhkan menggunakan file requirements.txt
    dengan menjalankan perintah:
    pip install -r requirements.txt
    
-4. Menjalankan aplikasi streamlit
+5. Menjalankan aplikasi streamlit
    Jika semua sudah siap, jalankan dashboard dengan perintah berikut untuk membuka dashboard di browser
    Anda:
    (link)
