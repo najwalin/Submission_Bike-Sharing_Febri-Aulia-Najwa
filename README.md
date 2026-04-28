@@ -41,23 +41,23 @@ Dataset terdiri dari dua file utama yang berisi data penyewaan sepeda dari tahun
 - `weathersit`: Kondisi cuaca
 
 # Cara Menjalankan Dashboard
-1. **Pastikan semua file berikut ada dalam satu folder**:
-   - **dashboard.py**
-   - **day_all_data.csv**
-   - **hour_all_data.csv**
-   - **requirements.txt**
+# 1. Pastikan semua file berikut ada dalam satu folder:
+     - **dashboard.py**
+     - **day_all_data.csv**
+     - **hour_all_data.csv**
+     - **requirements.txt**
 
-2. **Membuat Virtual Environment**:
-   Untuk menghindari bentrok antar library, sebaiknya gunakan virtual environment. Buka terminal atau
-   command prompt di folder proyek, selanjutnya jalankan
-   *Windows*
-   python -m venv venv
-   venv\Script\activate
+# 2. Membuat Virtual Environment:
+     Untuk menghindari bentrok antar library, sebaiknya gunakan virtual environment. Buka terminal atau
+     command prompt di folder proyek, selanjutnya jalankan
+     *Windows*
+     python -m venv venv
+     venv\Script\activate
 
-3. **Instalasi library**:
-   Setelah environment aktif, install semua library yang dibutuhkan menggunakan file requirements.txt
-   dengan menjalankan perintah:
-   pip install -r requirements.txt
+# 3. Instalasi library:
+     Setelah environment aktif, install semua library yang dibutuhkan menggunakan file requirements.txt
+     dengan menjalankan perintah:
+     pip install -r requirements.txt
    
-4. **Menjalankan aplikasi streamlit**:
+# 4. Menjalankan aplikasi streamlit:
    Setelah semua sudah siap, jalankan perintah berikut untuk membuka dashboard di browser: https://submissionbike-sharingfebri-aulia-najwa-8rmriqgotigudfrzrt6spm.streamlit.app/
