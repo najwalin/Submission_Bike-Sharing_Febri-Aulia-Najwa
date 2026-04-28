@@ -140,7 +140,7 @@ elif menu == "Faktor Cuaca":
     ax[1,1].set_title('Pengaruh Kelembapan terhadap\n Penyewaan Sepeda (Registered)')
 
     sns.regplot(x='windspeed', y='registered', data=main_day_df, ax=ax[1,2], color='#F5930B')
-    ax[1,1].set_title('Pengaruh Kecepatan Angin terhadap\n Penyewaan Sepeda (Registered)')
+    ax[1,2].set_title('Pengaruh Kecepatan Angin terhadap\n Penyewaan Sepeda (Registered)')
 
     plt.tight_layout()
     st.pyplot(fig)
